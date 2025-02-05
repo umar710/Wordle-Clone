@@ -7,9 +7,7 @@ A simple Wordle-like game built with **React**. This project is a clone of the p
 ## Features
 
 ### Core Features
-
 1. **Game Logic**:
-
    - The user has 6 attempts to guess a 5-letter word.
    - After each guess, the game provides feedback:
      - **Green**: Correct letter in the correct position.
@@ -18,13 +16,11 @@ A simple Wordle-like game built with **React**. This project is a clone of the p
    - Prevents invalid words from being submitted.
 
 2. **UI/UX**:
-
    - A grid displays previous guesses with color-coded feedback.
    - A message is shown when the user wins or loses.
    - A "New Game" button allows the user to restart the game.
 
 3. **State Management**:
-
    - Maintains guessed words, remaining attempts, and game status using React state.
 
 4. **Performance & Code Quality**:
@@ -32,7 +28,6 @@ A simple Wordle-like game built with **React**. This project is a clone of the p
    - Proper component structure.
 
 ### Bonus Features (Optional)
-
 - Animations for letter feedback.
 - Dark mode toggle.
 
@@ -71,13 +66,14 @@ Follow these steps to set up and run the project locally:
    npm start
    ```
 
- 5. **Open the Application**:
-    Open your browser and navigate to http://localhost:3000
-   
+5. **Open the Application**:
+   - Open your browser and navigate to `http://localhost:3000`.
 
+---
 
-**Project Structure**:
+## Project Structure
 
+```
 wordle-clone/
 ├── public/                  # Static assets
 ├── src/                     # Source code
@@ -88,8 +84,51 @@ wordle-clone/
 ├── README.md                # Project documentation
 ├── package.json             # Project dependencies and scripts
 └── tailwind.config.js       # TailwindCSS configuration
+```
+
+---
+
+## How to Play
+
+1. **Start the Game**:
+   - The game randomly selects a 5-letter word from a predefined list.
+
+2. **Make a Guess**:
+   - Enter a 5-letter word in the input field and click "Submit".
+
+3. **Feedback**:
+   - After each guess, the letters will be color-coded:
+     - **Green**: Correct letter in the correct position.
+     - **Yellow**: Correct letter in the wrong position.
+     - **Gray**: Incorrect letter.
+
+4. **Win or Lose**:
+   - If you guess the word correctly within 6 attempts, you win!
+   - If you exhaust all 6 attempts, the game ends, and the correct word is revealed.
+
+5. **Restart**:
+   - Click the "New Game" button to start a new game.
 
 
+## Future Improvements
 
+- Add animations for letter feedback.
+- Implement a dark mode toggle.
+- Integrate a backend to fetch words dynamically.
+- Add a leaderboard to track high scores.
 
+---
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Author
+
+[Umer Faruque Syed](https://github.com/umar710)  
+*Full Stack Developer*
+
+---
+```
