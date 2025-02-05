@@ -55,3 +55,41 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone https://github.com/your-username/wordle-clone.git
    ```
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd wordle-clone
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Start the Development Server**:
+   ```bash
+   npm start
+   ```
+
+ 5. **Open the Application**:
+    Open your browser and navigate to http://localhost:3000
+   
+
+
+**Project Structure**:
+
+wordle-clone/
+├── public/                  # Static assets
+├── src/                     # Source code
+│   ├── App.js               # Main application component
+│   ├── index.js             # Entry point
+│   ├── index.css            # Global styles
+│   └── ...                  # Other components and utilities
+├── README.md                # Project documentation
+├── package.json             # Project dependencies and scripts
+└── tailwind.config.js       # TailwindCSS configuration
+
+
+
+
+
