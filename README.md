@@ -26,6 +26,9 @@ A simple Wordle-like game built with **React**. This project is a clone of the p
 4. **Performance & Code Quality**:
    - Clean, modular, and readable code.
    - Proper component structure.
+  
+5. **Deployment**:
+   The application is deployed on Netlify and can be accessed[here](https://my-wordleclone.netlify.app/)
 
 ### Bonus Features (Optional)
 - Animations for letter feedback.
@@ -119,9 +122,9 @@ wordle-clone/
 
 ---
 
-## License
+## Deployment:
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+The application is deployed on Netlify and can be accessed[here](https://my-wordleclone.netlify.app/)
 
 ---
 
