@@ -89,7 +89,21 @@ wordle-clone/
 └── tailwind.config.js       # TailwindCSS configuration
 ```
 
+
 ---
+
+## Word List
+
+This game uses a predefined set of words:
+
+```javascript
+const WORDS = ["APPLE", "CRANE", "TIGER", "OCEAN", "MONEY"]; // Hardcoded word list
+```
+
+These words are randomly selected as the target word for each game session.
+
+---
+
 
 ## How to Play
 
